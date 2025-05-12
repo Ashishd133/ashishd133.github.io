@@ -1,10 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Data Science & GenAI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Optional: Add Google Fonts (Example: Montserrat & Source Code Pro) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Optional: Add Font Awesome for icons (if you want them later) -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
 </head>
 <body>
-  <h1>Hello, I'm Ashish</h1>
-  <p>I work on Data Science, Generative AI, and Cloud solutions.</p>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Your Name</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content container">
+                <h1>Your Name</h1>
+                <p class="subtitle">Data Scientist & Generative AI Enthusiast</p>
+                <p class="tagline">Building intelligent systems with data and exploring the frontiers of AI creativity.</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+            <div class="hero-bg-shape"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container section">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm [Your Name], passionate about leveraging data to uncover insights and build impactful AI solutions. My work focuses on [mention specific areas like NLP, Computer Vision, LLMs, Diffusion Models, MLOps, etc.]. I thrive on solving complex problems and continuously learning in the rapidly evolving field of AI.
+            </p>
+            <h3>Core Skills:</h3>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>PyTorch / TensorFlow</li>
+                <li>Scikit-learn</li>
+                <li>Pandas / NumPy</li>
+                <li>SQL / NoSQL</li>
+                <li>LangChain / LLMs</li>
+                <li>Docker / Kubernetes</li>
+                <li>Cloud (AWS/GCP/Azure)</li>
+                <li>Data Visualization</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Generative Models</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <!-- Project 1 Card -->
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Project Title 1: GenAI Image Creator</h3>
+                            <p>Developed a web application using Stable Diffusion to generate images from text prompts, exploring fine-tuning techniques.</p>
+                            <div class="tags">
+                                <span>Python</span><span>PyTorch</span><span>Stable Diffusion</span><span>Flask</span><span>Web UI</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="link-button">View Code</a>
+                                <a href="#" target="_blank" class="link-button">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 Card -->
+                    <div class="project-card">
+                         <div class="card-content">
+                            <h3>Project Title 2: NLP Sentiment Analysis</h3>
+                            <p>Built and deployed a sentiment analysis model for customer reviews using BERT, achieving high accuracy on a custom dataset.</p>
+                             <div class="tags">
+                                <span>Python</span><span>Hugging Face</span><span>NLP</span><span>Scikit-learn</span><span>API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" class="link-button">View Code</a>
+                                <!-- <a href="#" target="_blank" class="link-button">Blog Post</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 Card (Add more as needed) -->
+                    <div class="project-card">
+                        <div class="card-content">
+                           <h3>Project Title 3: Data Dashboards</h3>
+                           <p>Created interactive dashboards visualizing sales trends using Plotly Dash, providing actionable insights for stakeholders.</p>
+                            <div class="tags">
+                               <span>Python</span><span>Pandas</span><span>Plotly</span><span>Dash</span><span>Data Viz</span>
+                           </div>
+                           <div class="project-links">
+                               <a href="#" target="_blank" class="link-button">View Code</a>
+                           </div>
+                       </div>
+                   </div>
+                   </div> <!-- End project-grid -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container section">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects, collaborations, or opportunities. Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-link">LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank" class="contact-link">GitHub</a>
+                <!-- Add other links like Twitter/X, Medium, etc. if desired -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Your Name. Built with passion.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
